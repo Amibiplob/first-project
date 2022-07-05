@@ -1,5 +1,38 @@
+body{
+    margin: 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
 img{
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 600px;
+    width: 600px;
+}
+
+.top{
+    background-image: url("../my-bg.png");
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+    padding-left: 50px;
+}
+.orange{
+    color: orange;
+}
+section a {
+    text-decoration: none;
+    background: linear-gradient(120deg,orange,red);
+padding: 5px 20px;
+border-radius: 10px;
+color: aliceblue;
+}
+.bottom div{
+    box-shadow: 5px 7px 40px gray;
+    height: 80%;
 }
