@@ -1,46 +1,63 @@
-body{
+body {
     margin: 0;
     font-family: 'Shadows Into Light', cursive;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-h2{
+
+h2 {
     font-size: 40px;
 }
-.half-width img{
+
+.half-width img {
     width: 100%;
 }
 
-.welcome{
+.welcome {
     background-image: url("img/top-banner.png");
     background-repeat: no-repeat;
 }
-.half-width{
+
+.half-width {
     width: 40%;
     float: left;
     margin-left: 50px;
     padding-left: 50px;
 }
-.orange{
+
+.orange {
     color: orange;
 }
+
 section a {
     text-decoration: none;
-    background: linear-gradient(120deg,orange,red);
-padding: 5px 20px;
-border-radius: 10px;
-color: aliceblue;
+    background: linear-gradient(120deg, orange, red);
+    padding: 5px 20px;
+    border-radius: 10px;
+    color: aliceblue;
 }
-.dream{
+
+.dream {
     background-image: url("img/dream-bg.png");
     background-repeat: no-repeat;
 }
-.exp{
+
+.exp {
     background-image: url("img/exp-bg.png");
     background-repeat: no-repeat;
 }
-.exp div{
+
+.exp div {
     box-shadow: 5px 7px 40px gray;
     height: 80%;
+}
+
+#full {
+    border-left: 5px solid red;
+}
+
+#baby {
+    border-left: 5px solid rgb(74, 34, 196);
 }
