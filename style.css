@@ -8,13 +8,13 @@ h1{
 h2{
     font-size: 40px;
 }
-img{
-    height: 600px;
-    width: 600px;
+.half-width img{
+    width: 100%;
 }
 
-.top{
-    background-image: url("../my-bg.png");
+.welcome{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
 }
 .half-width{
     width: 40%;
@@ -32,7 +32,15 @@ padding: 5px 20px;
 border-radius: 10px;
 color: aliceblue;
 }
-.bottom div{
+.dream{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+}
+.exp{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+}
+.exp div{
     box-shadow: 5px 7px 40px gray;
     height: 80%;
 }
