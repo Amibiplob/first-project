@@ -2,7 +2,10 @@ body {
     margin: 0;
     font-family: 'Shadows Into Light', cursive;
 }
-
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
 h1 {
     font-size: 50px;
 }
@@ -42,11 +45,13 @@ section a {
 .dream {
     background-image: url("img/dream-bg.png");
     background-repeat: no-repeat;
+    background-position: right;
 }
 
 .exp {
     background-image: url("img/exp-bg.png");
     background-repeat: no-repeat;
+    background-position: left;
 }
 
 .exp div {
@@ -60,4 +65,7 @@ section a {
 
 #baby {
     border-left: 5px solid rgb(74, 34, 196);
+}
+footer p{
+    text-align: center;
 }
